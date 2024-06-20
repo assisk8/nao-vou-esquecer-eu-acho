@@ -46,5 +46,11 @@ body{
     width: 1000;
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 4px solid var(--botao-ativo);
-
+    
 } 
+@media screen and (min-width: 768 px){
+    .botoes{
+        display: flex;
+    }
+
+}
