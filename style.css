@@ -49,9 +49,17 @@ body{
     border-right: 4px solid var(--botao-ativo);
     border-top: none;
 } 
-@media screen and (min-width: 768 px){
+.botao:first-child{
+    border-radius: 480px 40px 0 0;
+}
+
+.botao{
+    display: block
+}
+
+@media screen and (min-width: 768px){
     .botoes{
         display: flex;
     }
-
 }
+
